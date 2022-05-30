@@ -2,12 +2,11 @@
 {
     public class Position
     {
-        private int Row { get; set; }
-        private int Column { get; set; }
-        public Position(int row, int columns) {
+        public int Row { get; set; }
+        public int Column { get; set; }
+        public Position(int row, int column) {
             Row = row;
-            Column = columns;
-            
+            Column = column;
         }
     }
 }
